@@ -24,3 +24,16 @@ startbtn.addEventListener ("click", function (){
 stopbtn.addEventListener ("click", function (){
     shadow.style.animation = "";
 });
+
+//making heart image larger by moving the mouse pointer on and off the image
+function bigImg(x){
+    x.style.height ="130px";
+    x.style.width ="130px"
+}
+function normalImg(x){
+    x.style.height ="64px";
+    x.style.width ="64px";
+}
+
+
+
