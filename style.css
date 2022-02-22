@@ -4,7 +4,7 @@
 body{
 
     padding: 15px;
-    background-color: #94bcdf;
+    background-color: #b7cfe4;
 }
 p{
     font-size: 28px;
@@ -50,6 +50,7 @@ p{
     margin-top: 150px;
 }
 .mycanvas{
+    border: .5px solid white;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -59,7 +60,6 @@ p{
     right: 0;
     top: 0;
     bottom: 0;
-
 }
 #ball{
     border: 1px solid black;
@@ -117,4 +117,10 @@ p{
 #startbtn, #stopbtn{
     width: 60px;
     height: 30px;
+}
+
+/*making text larger by hovering*/
+.mouseenter{
+    margin-top: 725px;
+    margin-bottom: 100px;
 }
